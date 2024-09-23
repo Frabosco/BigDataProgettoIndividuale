@@ -1,0 +1,34 @@
+1) Animation_Movies.csv
+id, title, vote_average, vote_count, status, release_date, revenue, runtime, adult, backdrop_path, 
+budget, homepage, imdb_id, original_language, original_title, overview, popularity, poster_path, 
+tagline, genres, production_companies, production_countries, spoken_languages
+
+2) Cartoon_datasets.csv
+Name, Span, Description, Rating
+
+3) anime.csv
+Anime Series, Release Date, Length, Genre, Rating
+
+4)animation_studios.csv
+Studio, Country, Founded, Notes and sources
+
+5) imdb_anime.csv
+Title, Genre, User Rating, Number of Votes, Runtime, Year, Summary, Stars, Certificate, Metascore
+
+6.1)1948 - 1986.csv
+Title, Episodes, Country, Premiere Year, Final Year
+
+6.2)1987 - 2022.csv
+Title, Seasons, Episodes, Country, Premiere Year, Final Year, Original Channel, Technique
+
+6.3)2023.csv
+Title, Seasons, Episodes, Country, Year, Original channel, Technique
+
+7)tv_movie_animation.csv
+title, desc, year, genre, certificate, Runtime, rating, votes
+
+8)Top 50 Animation Movies and TV Shows.csv
+Name, Year, Minutes, genre, Rating, Votes
+
+9)TopAnimatedImDb.csv
+Title, Rating, Votes, Gross, Genre, Certificate, Description
