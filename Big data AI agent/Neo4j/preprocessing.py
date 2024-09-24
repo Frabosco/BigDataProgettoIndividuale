@@ -1,10 +1,16 @@
 import pandas as pd
 from neo4j import GraphDatabase
+from Neo4jCrediental import *
 import os
 
+#insert your credential
+URI="neo4j://localhost:7687"
+NAME="neo4j"
+PASSWORD=""
+
 dfs=os.listdir("Datasets")[:11]
-URI = "neo4j://localhost:7687"
-AUTH = ("neo4j", "animation")
+URI = URI
+AUTH = (NAME,PASSWORD)
 
 def preprocessing(name, years, genres, companies, countrys, info, infoquery): 
     if years != []:  
